@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.614d867f.css",
+    "main.js": "/static/js/main.d78aeb09.js",
+    "static/media/Truechem logo.png": "/static/media/Truechem logo.b47b18bc0bcac6d00363.png",
+    "index.html": "/index.html",
+    "main.614d867f.css.map": "/static/css/main.614d867f.css.map",
+    "main.d78aeb09.js.map": "/static/js/main.d78aeb09.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.614d867f.css",
+    "static/js/main.d78aeb09.js"
+  ]
+}
