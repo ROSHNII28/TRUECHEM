@@ -34,6 +34,24 @@
   text-decoration: none;
 }
 
+.im-icon {
+  font-weight: 600;
+  font-size: 0.85rem;
+  background:#4565a5;   /* blue fill */
+  color: #090909;           /* white text */
+  padding: 6px 14px;
+  border-radius: 6px;
+
+  border: none;
+  transition: all 0.25s ease;
+}
+.im-icon:hover {
+  background: #5b80e4; /* darker blue */
+  transform: translateY(-1px);
+}
+.im-icon {
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
+}
 
 .brand-logo{
   height: 45px;
@@ -45,11 +63,11 @@
   font-size: 1.5rem;
   font-weight: 800;
   letter-spacing: -0.02em;
-  color: var(--blue-800);
+  color: #4161a2;
 }
 
 .brand-name span {
-  color: var(--blue-500);
+  color: #4161a2;
 }
 
 /* Nav Links */

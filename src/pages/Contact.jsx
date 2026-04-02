@@ -21,7 +21,7 @@ const contactInfo = [
   {
     icon: <MdPhone />,
     label: 'Phone',
-    value: '+91 9979997334',
+    value: '+91 9979997334 / 9869125603',
     link: 'tel:+919979997334',
     color: 'blue',
   },

@@ -67,10 +67,11 @@ const stats = [
 ];
 
 const galleryImages = [
-  { src: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80', alt: 'Construction site' },
-  { src: 'https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=600&q=80', alt: 'Chemical laboratory' },
-  { src: 'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=600&q=80', alt: 'Industrial warehouse' },
-  { src: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80', alt: 'Paint industry' },
+  { src: 'https://i.pinimg.com/1200x/e6/8d/99/e68d99e0447abdab0fbdf7249834bc25.jpg', alt: '' },
+  { src: 'https://i.pinimg.com/736x/97/5a/61/975a617c0fa264bbc6dd498ac732c39d.jpg', alt: '' },
+  { src: 'https://i.pinimg.com/736x/40/dc/91/40dc912d2694d282ac251a5176a936f1.jpg', alt: '' },
+  { src: 'https://civilengpro.com/wp-content/uploads/2021/06/cement-mortar-1-768x403.jpg', alt: '' },
+  { src: 'https://i.pinimg.com/736x/40/dc/91/40dc912d2694d282ac251a5176a936f1.jpg', alt: '' },
 ];
 
 // Scroll reveal hook
@@ -199,10 +200,15 @@ export default function Home() {
             <span>India's Trusted Chemical Supplier</span>
           </div>
 
-          <h1 className="hero-heading animate-fade-up">
-            Innovative Construction<br />
-            <span className="hero-heading-accent">Chemical Solutions</span>
-          </h1>
+         <h1 className="hero-heading">
+  <span className="hero-heading-accent">
+    Innovative Construction
+  </span>
+  <br />
+  <span className="hero-heading-accent">
+    Chemical Solutions
+  </span>
+</h1>
 
           <p className="hero-sub animate-fade-up anim-delay-1">
             Trusted importer, distributor and stockist of specialty chemicals
@@ -294,7 +300,7 @@ export default function Home() {
               <div className="divider" />
               <p>
                 TRUECHEM is a premier importer, distributor and stockist of specialty construction
-                chemicals. With a state-of-the-art warehouse in Bhiwandi and offices across multiple
+                chemicals. With a state-of-the-art warehouse in Bhiwandi,Mumbai,pan India and offices across multiple
                 cities, we are equipped to serve clients with speed, reliability and expertise.
               </p>
               <ul className="strip-list">

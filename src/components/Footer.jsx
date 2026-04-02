@@ -1,7 +1,7 @@
-import { FaExternalLinkAlt, FaWhatsapp } from 'react-icons/fa';
+import { FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { MdEmail, MdLocationOn, MdPhone } from 'react-icons/md';
 import { NavLink } from 'react-router-dom';
-import logo from '../assets/Truechem logo.png';
+import logo from '../assets/white logo.png';
 import '../styles/Footer.css';
 
 export default function Footer() {
@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="footer-grid">
-          <div className="footer-brand-col">
+ <div className="footer-brand-col">
   <div className="footer-logo">
     <span className="footer-logo-icon">
       <img src={logo} alt="TrueChem Logo" className="footer-logo-img" />
@@ -26,6 +26,7 @@ export default function Footer() {
     Trusted importer and supplier of specialty construction chemicals across India.
   </p>
 
+  {/* SOCIALS */}
   <div className="footer-socials">
     <a
       href="https://wa.me/919979997334"
@@ -43,17 +44,26 @@ export default function Footer() {
       <MdEmail />
     </a>
 
-    <a
-      href="https://www.indiamart.com/true-chem/?pid=2857433820288&c_id=114&mid=138134&pn=White%20Redispersible%20Polymer%20Powder%20RDP"
-      target="_blank"
-      rel="noreferrer"
-      className="social-link"
-    >
-      <FaExternalLinkAlt />
-    </a>
+  <a
+  href="https://www.indiamart.com/true-chem/"
+  target="_blank"
+  rel="noreferrer"
+  className="social-link im-icon"
+>
+  iM
+</a>
+
+<a
+  href="https://in.linkedin.com/in/punit-vaghani-363a8b26"
+  target="_blank"
+  rel="noreferrer"
+  className="social-link linkedin"
+>
+  <FaLinkedin />
+</a>
   </div>
-</div>
-   
+</div> 
+  
 
           {/* Quick Links */}
           <div className="footer-col">
@@ -145,3 +155,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+

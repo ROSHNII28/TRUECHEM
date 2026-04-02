@@ -10,6 +10,7 @@ const links = [
   { to: '/contact',  label: 'Contact' },
 ];
 
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
@@ -41,27 +42,34 @@ export default function Navbar() {
           <span /><span /><span />
         </button>
 
-        <ul className={`navbar-links${open ? ' open' : ''}`}>
-          {links.map(({ to, label }) => (
-            <li key={to}>
-              <NavLink
-                to={to}
-                end={to === '/'}
-                className={({ isActive }) =>
-                  `nav-link${isActive ? ' active' : ''}`
-                }
-                onClick={handleLinkClick}
-              >
-                {label}
-              </NavLink>
-            </li>
-          ))}
-          <li>
-            
-              
-            
-          </li>
-        </ul>
+      <ul className={`navbar-links${open ? ' open' : ''}`}>
+  {links.map(({ to, label }) => (
+    <li key={to}>
+      <NavLink
+        to={to}
+        end={to === '/'}
+        className={({ isActive }) =>
+          `nav-link${isActive ? ' active' : ''}`
+        }
+        onClick={handleLinkClick}
+      >
+        {label}
+      </NavLink>
+    </li>
+  ))}
+
+  {/* ✅ iM sirf ek baar — loop ke bahar */}
+  <li className="im-wrapper">
+    <a
+      href="https://www.indiamart.com/true-chem/"
+      target="_blank"
+      rel="noreferrer"
+      className="im-icon"
+    >
+      iM
+    </a>
+  </li>
+</ul>
       </div>
     </nav>
   );

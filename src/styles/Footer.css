@@ -23,19 +23,25 @@
 .footer-logo-img {
   width: 48px;
   height: 48px;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.05);
-  padding: 6px;
+  object-fit: contain;
+  background: transparent;   /* remove white box */
+  border-radius: 0;          /* remove circle */
+  padding: 0;                /* remove spacing */
 }
-
+.footer-logo-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
 .footer-logo-text {
   font-size: 22px;
   font-weight: 700;
-  color: white;
+  color: #4060a2;
 }
 
 .footer-logo-text span {
-  color: #4f8cff; /* nice blue highlight */
+  color: #4060a2 /* nice blue highlight */
 }
 
 .footer-tagline {
@@ -81,7 +87,20 @@
   color: var(--white);
   margin-bottom: 20px;
 }
+/* IndiaMART icon same as others */
+.im-icon {
+  font-size: 12px;
+  font-weight: 700;
+  background: rgba(255,255,255,0.06);
+  color: var(--gray-400);
+}
 
+/* hover like brand color */
+.im-icon:hover {
+  background: #3182df;
+  color: #fff;
+  border-color: #457ff2;
+}
 /* Links */
 .footer-links {
   display: flex;
